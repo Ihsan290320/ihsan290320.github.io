@@ -86,7 +86,7 @@ nav ul li a:hover {
 }
 
 .btn:hover {
-	transform: scale(1, 1);
+	transform: scale(1, 2);
 	color: #000;
 }
 
@@ -220,7 +220,8 @@ button:hover {
 	font-size: 75px;
 	width: 1130px;
 	margin: 30px auto;
-	position: relative;
+	display: flex;
+	text-align: center;
 	align-items: center;
 	justify-content: center;
 }

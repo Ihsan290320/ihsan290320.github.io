@@ -99,22 +99,6 @@ nav ul li a:hover {
 		display: flex;
 	}
 
-	nav ul {
-		position: absolute;
-		right: 0;
-		top: 0;
-		height: 10vh;
-		flex-direction: column;
-		align-items: center;
-		justify-content: space-evenly;
-		z-index: -1;
-		background-color: goldenrod;
-		width: 80%;
-		transform: translateX(100%);
-		transition: all 1s;
-		opacity: 0;
-	}
-
 	nav ul.slide {
 		opacity: 1;
 		transform: translateX(0);
@@ -133,8 +117,8 @@ nav ul li a:hover {
 }
 
 .btn:hover {
-	transform: scale(1, 1);
-	color: goldenrod;
+	transform: scale(1, 2);
+	color: #000;
 }
 
 .content {

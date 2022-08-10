@@ -15,7 +15,7 @@
 
 nav {
 	display: flex;
-	background-color: #000;
+	background-color: #191919;
 	align-items: center;
 	justify-content: space-around;
 	padding: 20px 0;
@@ -66,28 +66,7 @@ nav ul li a:hover {
 	color: #000;
 }
 
-.menu-toggle {
-	display: none;
-	flex-direction: column;
-	height: 20px;
-	justify-content: space-between;
-	position: relative;
-}
-
-.menu-toggle span {
-	display: block;
-	width: 28px;
-	height: 3px;
-	background-color: goldenrod;
-	border-radius: 10px;
-
-}
-
 @media screen and (max-width: 576px) {
-	.menu-toggle {
-		display: flex;
-	}
-
 	nav ul {
 		display: none;
 	}
@@ -100,6 +79,7 @@ nav ul li a:hover {
 	text-decoration: none;
 	border: 2px solid transparent;
 	font-weight: bold;
+	font-size: 0, 8 em;
 	border-radius: 30px;
 	transition: transform .4s;
 }
@@ -177,7 +157,6 @@ h4 {
 .about-text {
 	width: 550px;
 	position: relative;
-	text-align: center;
 }
 
 .main {
@@ -241,6 +220,7 @@ button:hover {
 	width: 1130px;
 	margin: 30px auto;
 	text-align: center;
+	position: relative;
 }
 
 .box {

@@ -66,13 +66,6 @@ nav ul li a:hover {
 	color: #000;
 }
 
-@media screen and (max-width: 576px) {
-	nav ul {
-		display: none;
-	}
-
-}
-
 .btn {
 	background-color: goldenrod;
 	color: white;
@@ -156,7 +149,7 @@ h4 {
 }
 
 .about-text {
-	width: 550px;
+	width: 500px;
 	position: relative;
 }
 

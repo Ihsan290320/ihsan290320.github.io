@@ -66,6 +66,13 @@ nav ul li a:hover {
 	color: #000;
 }
 
+@media screen and (max-width: 576px) {
+	nav ul {
+		display: none;
+	}
+
+}
+
 .btn {
 	background-color: goldenrod;
 	color: white;
@@ -213,8 +220,7 @@ button:hover {
 	font-size: 75px;
 	width: 1130px;
 	margin: 30px auto;
-	display: flex;
-	text-align: center;
+	position: relative;
 	align-items: center;
 	justify-content: center;
 }

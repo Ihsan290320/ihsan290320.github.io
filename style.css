@@ -74,16 +74,6 @@ nav ul li a:hover {
 	position: relative;
 }
 
-.menu-toggle input {
-	position: absolute;
-	width: 40px;
-	height: 28px;
-	left: -5px;
-	top: -3px;
-	opacity: 0;
-	cursor: pointer;
-}
-
 .menu-toggle span {
 	display: block;
 	width: 28px;
@@ -110,13 +100,12 @@ nav ul li a:hover {
 	text-decoration: none;
 	border: 2px solid transparent;
 	font-weight: bold;
-	padding: 10px 25px;
 	border-radius: 30px;
 	transition: transform .4s;
 }
 
 .btn:hover {
-	transform: scale(0, 5);
+	transform: scale(1, 5);
 	color: #000;
 }
 

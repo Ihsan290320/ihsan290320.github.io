@@ -17,7 +17,7 @@ nav {
 	display: flex;
 	background-color: #191919;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: space-between;
 	padding: 20px 0;
 }
 
@@ -221,7 +221,7 @@ button:hover {
 	width: 1130px;
 	margin: 30px auto;
 	position: relative;
-	align-items: center;
+	text-align: center;
 	justify-content: center;
 }
 

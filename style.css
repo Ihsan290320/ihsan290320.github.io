@@ -6,7 +6,7 @@
 }
 
 .hero {
-	height: 100vh;
+	height: 90vh;
 	width: 100%;
 	background-image: url(img/ihsann.JPG);
 	background-size: cover;
@@ -15,7 +15,7 @@
 
 nav {
 	display: flex;
-	background-color: #191919;
+	background-color: gold;
 	align-items: center;
 	justify-content: space-around;
 	padding: 20px 0;
@@ -52,7 +52,8 @@ nav ul li:hover {
 }
 
 nav ul li a {
-	color: white;
+	color: goldenrod;
+	background-color: white;
 	text-decoration: none;
 	font-weight: bold;
 	text-transform: capitalize;
@@ -60,7 +61,7 @@ nav ul li a {
 
 nav ul li a:hover {
 	color: goldenrod;
-	transition: .4s;
+	transition: .8s;
 }
 
 .btn {

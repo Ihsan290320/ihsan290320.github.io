@@ -68,7 +68,7 @@ nav ul li a:hover {
 
 @media screen and (max-width: 576px) {
 	nav ul {
-		width: 0;
+		display: none;
 	}
 
 }
@@ -86,7 +86,7 @@ nav ul li a:hover {
 }
 
 .btn:hover {
-	transform: scale(1, 5);
+	transform: scale(1, 0);
 	color: #000;
 }
 
